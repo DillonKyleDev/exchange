@@ -13,7 +13,7 @@ import Login from './components/Login.js';
 import Logout from './components/Logout';
 import AddChannel from './components/AddChannel';
 import RemoveChannel from './components/RemoveChannel';
-import Agora from './agora/Agora';
+import VideoCall from './agora/VideoCall';
 
 
 
@@ -51,10 +51,10 @@ function App() {
 
   return (
     <div className="app">
-      { currentUser === null ? <Login /> : <Logout /> }   
-      <AddChannel />   
-      <RemoveChannel />
-      <Agora />
+      {/* { currentUser === null ? <Login /> : <Logout /> }    */}
+      {/* <AddChannel />   
+      <RemoveChannel />       */}
+      <VideoCall />
     </div>
   );
 }
