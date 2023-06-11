@@ -54,6 +54,7 @@ function App() {
       {/* { currentUser === null ? <Login /> : <Logout /> }    */}
       {/* <AddChannel />   
       <RemoveChannel />       */}
+      <h2>Test</h2>
       <VideoCall />
     </div>
   );
