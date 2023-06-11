@@ -53,8 +53,7 @@ function App() {
     <div className="app">
       {/* { currentUser === null ? <Login /> : <Logout /> }    */}
       {/* <AddChannel />   
-      <RemoveChannel />       */}
-      <h2>Test</h2>
+      <RemoveChannel />       */}      
       <VideoCall />
     </div>
   );
